@@ -1,28 +1,30 @@
 import { Header } from "@/components/Header";
+import { QuickDonate } from "@/components/QuickDonate";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { GiveNow } from "@/components/GiveNow";
-import { LiveGround } from "@/components/LiveGround";
-import { WorkThrough } from "@/components/WorkThrough";
 import { Impact } from "@/components/Impact";
 import { ImageMarquee } from "@/components/ImageMarquee";
+import { TakeAction } from "@/components/TakeAction";
 import { WaysIn } from "@/components/WaysIn";
+import { ImportantParts } from "@/components/ImportantParts";
 import { Stories } from "@/components/Stories";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export default function HomePage() {
   return (
     <>
+      <QuickDonate />
       <Header />
       <main id="main">
         <HeroCarousel />
         <div className="action-band">
-          <LiveGround />
           <GiveNow />
         </div>
-        <WorkThrough />
         <Impact />
         <ImageMarquee />
+        <TakeAction />
         <WaysIn />
+        <ImportantParts />
         <Stories />
       </main>
       <SiteFooter />

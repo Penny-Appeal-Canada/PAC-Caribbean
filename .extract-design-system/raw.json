@@ -1,0 +1,1521 @@
+{
+  "url": "https://www.globalcitizen.org/en/",
+  "extractedAt": "2026-09-21T17:27:07.563Z",
+  "siteName": "Global Citizen",
+  "logo": {
+    "source": "img",
+    "url": "https://static.globalcitizen.org/static/img/gc_logo.11b725af7068.png",
+    "width": 334,
+    "height": 130,
+    "alt": "Global Citizen",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 20,
+      "left": 0
+    },
+    "background": "rgb(255, 255, 255)"
+  },
+  "favicons": [
+    {
+      "type": "shortcut icon",
+      "url": "https://static.globalcitizen.org/static/img/favicon.fb497794bcd4.ico",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://static.globalcitizen.org/static/img/phone-icon.32b1a56e58d9.png",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://static.globalcitizen.org/static/img/120-phone-icon.959744338ceb.png",
+      "sizes": "120x120"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://static.globalcitizen.org/static/img/152-phone-icon.cddee36fd645.png",
+      "sizes": "152x152"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://static.globalcitizen.org/static/img/180-phone-icon.1f80ef773293.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://static.globalcitizen.org/static/img/phone-icon.32b1a56e58d9.png",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://static.globalcitizen.org/static/img/120-phone-icon.959744338ceb.png",
+      "sizes": "120x120"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://static.globalcitizen.org/static/img/152-phone-icon.cddee36fd645.png",
+      "sizes": "152x152"
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://static.globalcitizen.org/static/img/180-phone-icon.1f80ef773293.png",
+      "sizes": "180x180"
+    },
+    {
+      "type": "og:image",
+      "url": "https://static.globalcitizen.org/static/img/mandela100_gc.295c7e8cc825.jpg",
+      "sizes": null
+    },
+    {
+      "type": "twitter:image",
+      "url": "https://static.globalcitizen.org/static/img/mandela100_1200x630.cd02a96346e7.jpg",
+      "sizes": null
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://www.globalcitizen.org/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {},
+    "palette": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 899,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(0% 0 0)",
+        "oklch": "oklch(0% 0 0)"
+      },
+      {
+        "color": "rgb(51, 51, 51)",
+        "normalized": "#333333",
+        "count": 713,
+        "confidence": "high",
+        "sources": [
+          "red-logo",
+          "inner-buttons"
+        ],
+        "lch": "lch(21.25% 0 158.2)",
+        "oklch": "oklch(32.11% 0 89.88)"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 649,
+        "confidence": "high",
+        "sources": [
+          "btn",
+          "footer-logo",
+          "home-link"
+        ],
+        "lch": "lch(100% 0 158.2)",
+        "oklch": "oklch(100% 0 89.88)"
+      },
+      {
+        "color": "rgb(138, 138, 138)",
+        "normalized": "#8a8a8a",
+        "count": 466,
+        "confidence": "high",
+        "sources": [],
+        "lch": "lch(57.48% 0 158.2)",
+        "oklch": "oklch(63.34% 0 89.88)"
+      },
+      {
+        "color": "rgb(214, 32, 39)",
+        "normalized": "#d62027",
+        "count": 81,
+        "confidence": "high",
+        "sources": [
+          "btn"
+        ],
+        "lch": "lch(46.29% 80.09 33.67)",
+        "oklch": "oklch(56.28% 0.213 26.25)"
+      }
+    ],
+    "cssVariables": {},
+    "_raw": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 899
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "normalized": "#ffffff",
+        "count": 649
+      },
+      {
+        "color": "rgb(51, 51, 51)",
+        "normalized": "#333333",
+        "count": 713
+      },
+      {
+        "color": "rgb(214, 32, 39)",
+        "normalized": "#d62027",
+        "count": 81
+      },
+      {
+        "color": "rgb(64, 64, 64)",
+        "normalized": "#404040",
+        "count": 39
+      },
+      {
+        "color": "rgb(246, 246, 246)",
+        "normalized": "#f6f6f6",
+        "count": 24
+      },
+      {
+        "color": "rgb(138, 138, 138)",
+        "normalized": "#8a8a8a",
+        "count": 466
+      }
+    ]
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "83.84px (5.24rem)",
+        "weight": 600,
+        "lineHeight": "1.00",
+        "spacing": "-1px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Druk Web",
+        "fallbacks": null,
+        "size": "72px (4.50rem)",
+        "weight": 700,
+        "lineHeight": null,
+        "spacing": "0.32px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-1",
+        "family": "Druk Web",
+        "fallbacks": null,
+        "size": "72px (4.50rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Heavy-W03-Regular",
+        "fallbacks": null,
+        "size": "48px (3.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": "0.5px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Heavy-W03-Regular",
+        "fallbacks": null,
+        "size": "48px (3.00rem)",
+        "weight": 700,
+        "lineHeight": "1.30",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "40px (2.50rem)",
+        "weight": 400,
+        "lineHeight": "1.15",
+        "spacing": "-0.78px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "35px (2.19rem)",
+        "weight": 700,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "33px (2.06rem)",
+        "weight": 700,
+        "lineHeight": "1.73",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "32px (2.00rem)",
+        "weight": 700,
+        "lineHeight": "1.34",
+        "spacing": "0.14px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "32px (2.00rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "28px (1.75rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": "-0.78px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "24px (1.50rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": "1.33",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": null,
+        "spacing": "0.5px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": null,
+        "spacing": "0.5px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.56",
+        "spacing": "-0.78px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.67",
+        "spacing": "0.36px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": "1.28",
+        "spacing": "0.88px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 700,
+        "lineHeight": null,
+        "spacing": "-1px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": "0.5px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": "0.5px",
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.75",
+        "spacing": "0.96px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.70",
+        "spacing": "0.88px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 700,
+        "lineHeight": "1.50",
+        "spacing": "-0.32px",
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "15px (0.94rem)",
+        "weight": 700,
+        "lineHeight": "1.15",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "15px (0.94rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12.96px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12.96px (0.81rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12.96px (0.81rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 400,
+        "lineHeight": null,
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "button",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": null,
+        "spacing": "0.5px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": null,
+        "spacing": "0.5px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "2.00",
+        "spacing": "0.72px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "2.00",
+        "spacing": "-0.24px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "2.00",
+        "spacing": "0.72px",
+        "transform": "uppercase"
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "12px (0.75rem)",
+        "weight": 700,
+        "lineHeight": "2.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "10.08px (0.63rem)",
+        "weight": 400,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "MarkWebPro-Book-W03-Regular",
+        "fallbacks": null,
+        "size": "0px (0.00rem)",
+        "weight": 400,
+        "lineHeight": "NaN",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [],
+      "adobeFonts": false,
+      "variableFonts": false
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "1px",
+        "rem": "0.06rem",
+        "count": 6,
+        "numericValue": 1
+      },
+      {
+        "px": "5px",
+        "rem": "0.31rem",
+        "count": 4,
+        "numericValue": 5
+      },
+      {
+        "px": "7px",
+        "rem": "0.44rem",
+        "count": 3,
+        "numericValue": 7
+      },
+      {
+        "px": "8px",
+        "rem": "0.50rem",
+        "count": 91,
+        "numericValue": 8
+      },
+      {
+        "px": "9px",
+        "rem": "0.56rem",
+        "count": 94,
+        "numericValue": 9
+      },
+      {
+        "px": "10px",
+        "rem": "0.63rem",
+        "count": 47,
+        "numericValue": 10
+      },
+      {
+        "px": "13px",
+        "rem": "0.81rem",
+        "count": 20,
+        "numericValue": 13
+      },
+      {
+        "px": "15px",
+        "rem": "0.94rem",
+        "count": 139,
+        "numericValue": 15
+      },
+      {
+        "px": "16px",
+        "rem": "1.00rem",
+        "count": 22,
+        "numericValue": 16
+      },
+      {
+        "px": "18px",
+        "rem": "1.13rem",
+        "count": 48,
+        "numericValue": 18
+      },
+      {
+        "px": "20px",
+        "rem": "1.25rem",
+        "count": 93,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "rem": "1.50rem",
+        "count": 10,
+        "numericValue": 24
+      },
+      {
+        "px": "30px",
+        "rem": "1.88rem",
+        "count": 8,
+        "numericValue": 30
+      },
+      {
+        "px": "32px",
+        "rem": "2.00rem",
+        "count": 8,
+        "numericValue": 32
+      },
+      {
+        "px": "40px",
+        "rem": "2.50rem",
+        "count": 25,
+        "numericValue": 40
+      },
+      {
+        "px": "48px",
+        "rem": "3.00rem",
+        "count": 11,
+        "numericValue": 48
+      },
+      {
+        "px": "50px",
+        "rem": "3.13rem",
+        "count": 2,
+        "numericValue": 50
+      },
+      {
+        "px": "64px",
+        "rem": "4.00rem",
+        "count": 3,
+        "numericValue": 64
+      },
+      {
+        "px": "75px",
+        "rem": "4.69rem",
+        "count": 2,
+        "numericValue": 75
+      },
+      {
+        "px": "478.125px",
+        "rem": "29.88rem",
+        "count": 23,
+        "numericValue": 478.125
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 5px 5px 0px",
+        "count": 2,
+        "elements": [
+          "div",
+          "Sign up"
+        ],
+        "confidence": "low",
+        "numericValue": 0
+      },
+      {
+        "value": "2px",
+        "count": 1,
+        "elements": [
+          "badge"
+        ],
+        "confidence": "low",
+        "numericValue": 2
+      },
+      {
+        "value": "5px",
+        "count": 19,
+        "elements": [
+          "Close",
+          "button",
+          "input",
+          "Email Address",
+          "div"
+        ],
+        "confidence": "high",
+        "numericValue": 5
+      },
+      {
+        "value": "5px 0px 0px 5px",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low",
+        "numericValue": 5
+      },
+      {
+        "value": "10px",
+        "count": 51,
+        "elements": [
+          "Events & Broadcasts - Alicia Keys & Friends, Victoria Monét, YEONJUN, and YOSHIKI officially join the Global Citizen Festival lineup",
+          "Convening - Global Citizen NOW: Perth\r\nElectrify Our World. Power Communities.",
+          "Impact - 14 Years Later, the World Has Changed. Our Purpose Hasn’t.",
+          "a",
+          "image"
+        ],
+        "confidence": "high",
+        "numericValue": 10
+      },
+      {
+        "value": "10px 0px 0px 10px",
+        "count": 24,
+        "elements": [
+          "span"
+        ],
+        "confidence": "high",
+        "numericValue": 10
+      },
+      {
+        "value": "10px 10px 0px 0px",
+        "count": 24,
+        "elements": [
+          "image"
+        ],
+        "confidence": "high",
+        "numericValue": 10
+      },
+      {
+        "value": "30px",
+        "count": 6,
+        "elements": [
+          "a",
+          "badge"
+        ],
+        "confidence": "medium",
+        "numericValue": 30
+      },
+      {
+        "value": "50%",
+        "count": 28,
+        "elements": [
+          "image",
+          "img",
+          "Previous",
+          "Next",
+          "button"
+        ],
+        "confidence": "high",
+        "numericValue": 50
+      }
+    ]
+  },
+  "borders": {
+    "combinations": [
+      {
+        "width": "3px",
+        "style": "solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 24,
+        "elements": [
+          "img"
+        ],
+        "confidence": "high"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.25)",
+        "count": 6,
+        "elements": [
+          "a"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(128, 128, 128)",
+        "count": 2,
+        "elements": [
+          "hr"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(99, 100, 111)",
+        "count": 2,
+        "elements": [
+          "input",
+          "select"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "4px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(214, 32, 39)",
+        "count": 2,
+        "elements": [
+          "dialog"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(221, 221, 221)",
+        "count": 2,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 0px 1px 1px",
+        "style": "solid none solid solid",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 1px",
+        "style": "none none solid",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px 1px 1px 0px",
+        "style": "solid solid solid none",
+        "color": "rgb(0, 0, 0)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "3px 0px 0px",
+        "style": "solid none none",
+        "color": "rgb(64, 64, 64)",
+        "count": 1,
+        "elements": [
+          "span"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 5px",
+        "style": "none none solid",
+        "color": "rgb(51, 51, 51)",
+        "count": 1,
+        "elements": [
+          "form"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "3px 1px 1px",
+        "style": "solid",
+        "color": "rgb(214, 32, 39)",
+        "count": 1,
+        "elements": [
+          "div"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "0px 0px 10px",
+        "style": "none none solid",
+        "color": "rgb(255, 255, 255)",
+        "count": 1,
+        "elements": [
+          "p"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "solid",
+        "color": "rgba(255, 255, 255, 0.2)",
+        "count": 1,
+        "elements": [
+          "button"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "1px",
+        "style": "solid",
+        "color": "rgb(193, 193, 193)",
+        "count": 1,
+        "elements": [
+          "textarea"
+        ],
+        "confidence": "low"
+      },
+      {
+        "width": "2px",
+        "style": "inset",
+        "color": "rgb(51, 51, 51)",
+        "count": 1,
+        "elements": [
+          "iframe"
+        ],
+        "confidence": "low"
+      }
+    ]
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+      "count": 51,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.25) 1px 1px 1px 0px",
+      "count": 11,
+      "confidence": "high"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.3) 0px 3px 7px 0px",
+      "count": 2,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(99, 99, 99, 0.5) 0px 2px 4px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.1) 2px 2px 2px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgba(0, 0, 0, 0.12) 0px 12px 24px 0px",
+      "count": 1,
+      "confidence": "low"
+    },
+    {
+      "shadow": "rgb(128, 128, 128) 0px 0px 5px 0px",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "components": {
+    "buttons": [
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(214, 32, 39)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "13px 20px",
+            "borderRadius": "5px",
+            "border": "0px none rgb(255, 255, 255)",
+            "boxShadow": "rgba(0, 0, 0, 0.25) 1px 1px 1px 0px",
+            "outline": "rgb(255, 255, 255) none 3px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "boxShadow": "none"
+          },
+          "active": {
+            "backgroundColor": "transparent",
+            "color": "rgb(64, 64, 64)",
+            "boxShadow": "none"
+          },
+          "focus": {
+            "backgroundColor": "transparent",
+            "color": "rgb(64, 64, 64)",
+            "boxShadow": "none"
+          }
+        },
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "classes": "button__ColoredButton-sc-14vd4y5-0 hDQSLL btn btn-",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgb(214, 32, 39)",
+            "color": "rgb(214, 32, 39)",
+            "padding": "0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(214, 32, 39)",
+            "boxShadow": "none",
+            "outline": "rgb(214, 32, 39) none 3px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "transparent",
+            "boxShadow": "none",
+            "transform": "scale(1.05)",
+            "opacity": "1"
+          },
+          "active": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "transparent",
+            "boxShadow": "none"
+          },
+          "focus": {
+            "backgroundColor": "rgb(88, 101, 242)",
+            "color": "rgb(158, 11, 15)",
+            "boxShadow": "none",
+            "transform": "scale(1.05)",
+            "opacity": "1"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "classes": "marker__link marker__link--how-we-make-impact-1291",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "borderRadius": "50%",
+            "border": "1px solid rgb(221, 221, 221)",
+            "boxShadow": "none",
+            "outline": "rgb(0, 0, 0) none 3px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)",
+            "boxShadow": "none"
+          },
+          "active": {
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(64, 64, 64)",
+            "boxShadow": "none"
+          },
+          "focus": {
+            "backgroundColor": "rgb(0, 0, 0)",
+            "color": "rgb(64, 64, 64)",
+            "boxShadow": "none"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "classes": "arrow-buttons__BaseArrowButton-jitd2k-1 arrow-butt",
+        "confidence": "high"
+      },
+      {
+        "states": {
+          "default": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "borderRadius": "50%",
+            "border": "2px solid rgba(255, 255, 255, 0.2)",
+            "boxShadow": "none",
+            "outline": "rgb(255, 255, 255) none 3px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          "hover": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "transparent",
+            "boxShadow": "none",
+            "transform": "scale(1.05)",
+            "opacity": "1"
+          },
+          "active": {
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "transparent",
+            "boxShadow": "none"
+          },
+          "focus": {
+            "backgroundColor": "rgb(88, 101, 242)",
+            "color": "rgb(158, 11, 15)",
+            "boxShadow": "none",
+            "transform": "scale(1.05)",
+            "opacity": "1"
+          }
+        },
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "classes": "unstuck button-up smooth-scroll-to-anchor",
+        "confidence": "medium"
+      }
+    ],
+    "inputs": {
+      "text": [
+        {
+          "specificType": "text",
+          "states": {
+            "default": {
+              "backgroundColor": "rgb(229, 229, 229)",
+              "color": "rgb(99, 100, 111)",
+              "border": "0px none rgb(99, 100, 111)",
+              "borderRadius": "0px",
+              "padding": "10px 10px 10px 111px",
+              "boxShadow": "none",
+              "outline": "rgb(99, 100, 111) none 3px"
+            },
+            "focus": null
+          }
+        },
+        {
+          "specificType": "email",
+          "states": {
+            "default": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "border": "0px none rgb(255, 255, 255)",
+              "borderRadius": "0px",
+              "padding": "0px",
+              "boxShadow": "none",
+              "outline": "rgb(255, 255, 255) none 0px"
+            },
+            "focus": null
+          }
+        }
+      ],
+      "checkbox": [],
+      "radio": [],
+      "select": []
+    },
+    "links": [
+      {
+        "color": "rgb(214, 32, 39)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(214, 32, 39)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline",
+            "color": "rgb(255, 255, 255)"
+          }
+        }
+      },
+      {
+        "color": "rgb(64, 64, 64)",
+        "textDecoration": "none",
+        "fontWeight": "700",
+        "states": {
+          "default": {
+            "color": "rgb(64, 64, 64)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline",
+            "color": "rgb(255, 255, 255)"
+          }
+        }
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "states": {
+          "default": {
+            "color": "rgb(0, 0, 0)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "underline",
+            "color": "rgb(255, 255, 255)"
+          }
+        }
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "700",
+        "states": {
+          "default": {
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "underline"
+          },
+          "hover": {
+            "textDecoration": "underline",
+            "color": "rgb(255, 255, 255)"
+          }
+        }
+      },
+      {
+        "color": "rgb(138, 138, 138)",
+        "textDecoration": "none",
+        "fontWeight": "700",
+        "states": {
+          "default": {
+            "color": "rgb(138, 138, 138)",
+            "textDecoration": "none"
+          },
+          "hover": {
+            "textDecoration": "underline",
+            "color": "rgb(255, 255, 255)"
+          }
+        }
+      }
+    ],
+    "badges": {
+      "all": [
+        {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "borderRadius": "30px",
+          "border": "2px solid rgba(255, 255, 255, 0.25)",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "textTransform": "none",
+          "letterSpacing": "normal",
+          "variant": "neutral",
+          "styleType": "outline",
+          "isRounded": true,
+          "classes": "social-media-icon net-instagram",
+          "confidence": "high"
+        }
+      ],
+      "byVariant": {
+        "error": [],
+        "warning": [],
+        "success": [],
+        "info": [],
+        "neutral": [
+          {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "borderRadius": "30px",
+            "border": "2px solid rgba(255, 255, 255, 0.25)",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "20px",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "variant": "neutral",
+            "styleType": "outline",
+            "isRounded": true,
+            "classes": "social-media-icon net-instagram",
+            "confidence": "high"
+          }
+        ]
+      }
+    }
+  },
+  "breakpoints": [
+    {
+      "px": "390px"
+    },
+    {
+      "px": "459px"
+    },
+    {
+      "px": "460px"
+    },
+    {
+      "px": "599px"
+    },
+    {
+      "px": "767px"
+    },
+    {
+      "px": "768px"
+    },
+    {
+      "px": "959px"
+    },
+    {
+      "px": "960px"
+    },
+    {
+      "px": "1199px"
+    },
+    {
+      "px": "1200px"
+    }
+  ],
+  "iconSystem": [
+    {
+      "name": "Font Awesome",
+      "type": "icon-font"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "UIkit",
+      "confidence": "high",
+      "evidence": "5 uk- components"
+    },
+    {
+      "name": "PrimeReact/Vue/NG",
+      "confidence": "high",
+      "evidence": "32 Prime components"
+    },
+    {
+      "name": "Fluent UI",
+      "confidence": "high",
+      "evidence": "71 Fluent components"
+    },
+    {
+      "name": "Quasar",
+      "confidence": "high",
+      "evidence": "28 q- components"
+    }
+  ]
+}

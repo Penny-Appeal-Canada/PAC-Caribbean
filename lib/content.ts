@@ -97,10 +97,36 @@ export const programmes: Programme[] = [
 ];
 
 export const impactStats = [
-  { value: "[PLACEHOLDER]", label: "Families reached this year" },
-  { value: "[PLACEHOLDER]", label: "Wells and water points funded" },
-  { value: "[PLACEHOLDER]", label: "Meals provided" },
-  { value: "[PLACEHOLDER]", label: "Children sponsored" },
+  {
+    name: "Thirst Relief",
+    amount: "$465,042",
+    href: "/donate",
+    programme: "thirst" as const,
+  },
+  {
+    name: "OrphanKind",
+    amount: "$925,375",
+    href: "/donate",
+    programme: "orphan" as const,
+  },
+  {
+    name: "Feed Our World",
+    amount: "$860,365",
+    href: "/donate",
+    programme: "feed" as const,
+  },
+  {
+    name: "Zakat",
+    amount: "$3,764,433",
+    href: "/zakat",
+    programme: "zakat" as const,
+  },
+  {
+    name: "Emergency Response",
+    amount: "$1,625,885",
+    href: "/donate",
+    programme: "emergency" as const,
+  },
 ];
 
 export const happening = [
@@ -285,8 +311,73 @@ export const stories = {
   ],
 };
 
-export const navLinks = [
-  { href: "/about", label: "Who we are" },
-  { href: "/#programmes", label: "What we do" },
-  { href: "/#zakat", label: "Get involved" },
+export const importantParts = [
+  {
+    href: "/zakat-policy",
+    title: "Our Zakat policy",
+    dek: "How Zakat is calculated, kept restricted, and spent.",
+    action: "Read the policy",
+    weight: "lead" as const,
+    tone: undefined,
+  },
+  {
+    href: "/reports",
+    title: "Financial Reports",
+    dek: "What came in, and where it was spent.",
+    action: "Read the reports",
+    weight: undefined,
+    tone: "ink" as const,
+  },
+  {
+    href: "/scholars",
+    title: "Our Scholars",
+    dek: "The scholars who review the fiqh of our programmes.",
+    action: "Meet the scholars",
+    weight: undefined,
+    tone: undefined,
+  },
+  {
+    href: "/volunteer",
+    title: "Volunteer",
+    dek: "Events, packs, and local work. Give the hours you have.",
+    action: "Volunteer with us",
+    weight: undefined,
+    tone: "orange" as const,
+  },
 ];
+
+export type NavItem = {
+  label: string;
+  href: string;
+  children?: NavChild[];
+};
+
+export const navMenu: NavItem[] = [
+  {
+    label: "Our Work",
+    href: "/#programmes",
+    children: [
+      { href: "/donate#monthly", label: "AutoGive" },
+      { href: "/programmes/thirst-relief", label: "Thirst Relief" },
+      { href: "/programmes/feed-our-world", label: "Feed Our World" },
+      { href: "/programmes/orphankind", label: "OrphanKind" },
+      { href: "/zakat", label: "Zakat" },
+      { href: "/give-monthly", label: "Give monthly" },
+    ],
+  },
+  {
+    label: "Emergency Response",
+    href: "/programmes/emergency-response",
+  },
+  {
+    label: "About Us",
+    href: "/about",
+    children: [
+      { href: "/about", label: "Who we are" },
+      { href: "/news", label: "News" },
+      { href: "/volunteer", label: "Volunteer" },
+    ],
+  },
+];
+
+export const navLinks = navMenu.map(({ href, label }) => ({ href, label }));

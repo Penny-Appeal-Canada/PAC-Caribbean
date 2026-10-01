@@ -1,0 +1,24 @@
+:root {
+  --font-heading: MarkWebPro-Book-W03-Regular;
+  --font-body: MarkWebPro-Book-W03-Regular;
+  --space-1: 1px;
+  --space-2: 5px;
+  --space-3: 7px;
+  --space-4: 8px;
+  --space-5: 9px;
+  --space-6: 10px;
+  --space-7: 13px;
+  --space-8: 15px;
+  --space-9: 16px;
+  --space-10: 18px;
+  --space-11: 20px;
+  --space-12: 24px;
+  --space-13: 30px;
+  --space-14: 32px;
+  --space-15: 40px;
+  --space-16: 48px;
+  --space-17: 50px;
+  --space-18: 64px;
+  --space-19: 75px;
+  --space-20: 478.125px;
+}

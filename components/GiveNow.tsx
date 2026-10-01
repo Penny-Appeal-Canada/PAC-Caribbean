@@ -9,6 +9,7 @@ import {
   Student,
 } from "@phosphor-icons/react/ssr";
 import { giveCards } from "@/lib/content";
+import { RevealText } from "./RevealText";
 
 const icons = {
   autogive: ArrowsClockwise,
@@ -24,9 +25,15 @@ export function GiveNow() {
   return (
     <section className="give-now" id="give" aria-labelledby="give-now-heading">
       <div className="wrap">
-        <h2 id="give-now-heading" className="visually-hidden">
-          Ways to give
-        </h2>
+        <div className="give-intro">
+          <RevealText id="give-now-heading">
+            Donate to a cause you care about
+          </RevealText>
+          <p className="give-lede">
+            Penny Appeal Caribbean is a Muslim charity working across the
+            region. We keep Zakat restricted from general funds.
+          </p>
+        </div>
         <div className="give-grid">
           {giveCards.map((card) => {
             const Icon = icons[card.id as keyof typeof icons];

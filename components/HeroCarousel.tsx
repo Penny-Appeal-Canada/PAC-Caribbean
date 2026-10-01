@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from "react";
+import { ArrowLeft, ArrowRight } from "@phosphor-icons/react";
 import { programmes, type Programme } from "@/lib/content";
 import { Button } from "./Button";
 
@@ -39,13 +40,12 @@ export function HeroCarousel() {
   const [index, setIndex] = useState(0);
   const [direction, setDirection] = useState<"forwards" | "back">("forwards");
   const [paused, setPaused] = useState(false);
-  const reduceRef = useRef(false);
+  const barRef = useRef<HTMLSpanElement>(null);
+  const elapsedRef = useRef(0);
+  const prevIndexRef = useRef(0);
 
-  useEffect(() => {
-    reduceRef.current = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    ).matches;
-  }, []);
+  const nextIndex = (index + 1) % programmes.length;
+  const nextSlide = programmes[nextIndex];
 
   const goTo = useCallback(
     (next: number) => {
@@ -56,12 +56,45 @@ export function HeroCarousel() {
   );
 
   useEffect(() => {
-    if (paused || reduceRef.current) return;
-    const id = window.setInterval(() => {
-      setDirection("forwards");
-      setIndex((current) => (current + 1) % programmes.length);
-    }, 5600);
-    return () => window.clearInterval(id);
+    const bar = barRef.current;
+    if (!bar) return;
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      bar.style.transform = "scaleX(1)";
+      return;
+    }
+
+    if (prevIndexRef.current !== index) {
+      elapsedRef.current = 0;
+      prevIndexRef.current = index;
+    }
+
+    bar.style.transform = `scaleX(${elapsedRef.current / 5600})`;
+
+    if (paused) return;
+
+    const start = performance.now() - elapsedRef.current;
+    let frame = 0;
+
+    const tick = (now: number) => {
+      const elapsed = Math.min(5600, now - start);
+      elapsedRef.current = elapsed;
+      bar.style.transform = `scaleX(${elapsed / 5600})`;
+      if (elapsed >= 5600) {
+        elapsedRef.current = 0;
+        setDirection("forwards");
+        setIndex((current) => (current + 1) % programmes.length);
+        return;
+      }
+      frame = window.requestAnimationFrame(tick);
+    };
+
+    frame = window.requestAnimationFrame(tick);
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      elapsedRef.current = Math.min(5600, performance.now() - start);
+    };
   }, [paused, index]);
 
   function onKey(event: KeyboardEvent<HTMLDivElement>) {
@@ -131,7 +164,14 @@ export function HeroCarousel() {
                   </p>
                 )}
                 <p className="hero-support">{programme.heroSupport}</p>
-                {active ? <Button href="/donate">Donate</Button> : null}
+                {active ? (
+                  <div className="hero-actions">
+                    <Button href="/donate">Donate Now</Button>
+                    <Button href="/zakat" variant="ghost">
+                      Give Zakat
+                    </Button>
+                  </div>
+                ) : null}
               </div>
             </div>
             {active ? (
@@ -140,27 +180,42 @@ export function HeroCarousel() {
           </article>
         );
       })}
-      <div
-        className="hero-dots"
-        role="tablist"
-        aria-label="Programme slides"
-        onKeyDown={onKey}
+      <button
+        className="hero-preview"
+        type="button"
+        data-programme={nextSlide.id}
+        onClick={() => goTo(nextIndex)}
       >
-        {programmes.map((programme, slideIndex) => (
-          <button
-            key={programme.id}
-            className="dot"
-            type="button"
-            role="tab"
-            aria-selected={slideIndex === index}
-            data-active={slideIndex === index || undefined}
-            onClick={() => goTo(slideIndex)}
-          >
-            <span className="visually-hidden">
-              Slide {slideIndex + 1}, {programme.name}
-            </span>
-          </button>
-        ))}
+        <img src={nextSlide.heroImage} alt="" width={360} height={225} />
+        <span className="hero-preview-name" aria-hidden="true">
+          {nextSlide.name}
+        </span>
+        <span className="visually-hidden">Next slide, {nextSlide.name}</span>
+      </button>
+      <div
+        className="hero-progress"
+        data-programme={programmes[index].id}
+        aria-hidden="true"
+      >
+        <span ref={barRef} className="hero-progress-bar" />
+      </div>
+      <div className="hero-nav" onKeyDown={onKey}>
+        <button
+          className="hero-arrow"
+          type="button"
+          aria-label="Previous slide"
+          onClick={() => goTo(index - 1)}
+        >
+          <ArrowLeft size={22} weight="regular" aria-hidden="true" />
+        </button>
+        <button
+          className="hero-arrow"
+          type="button"
+          aria-label="Next slide"
+          onClick={() => goTo(index + 1)}
+        >
+          <ArrowRight size={22} weight="regular" aria-hidden="true" />
+        </button>
       </div>
     </section>
   );

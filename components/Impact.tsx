@@ -1,24 +1,40 @@
 import { globePins, impactStats } from "@/lib/content";
-import { ArrowRight } from "@phosphor-icons/react/ssr";
+import { LiveGround } from "./LiveGround";
+import { RevealText } from "./RevealText";
 
 export function Impact() {
   return (
     <section className="section progress" aria-labelledby="progress-heading">
       <div className="wrap">
-        <h2 id="progress-heading">Our progress</h2>
+        <RevealText id="progress-heading">Our impact</RevealText>
+        <p className="impact-subhead">
+          Together we raised{" "}
+          <span className="impact-total">
+            <span className="visually-hidden">CAD </span>
+            $7,672,075
+          </span>{" "}
+          in 2026
+        </p>
+        <p className="impact-updated">Last updated: August 31, 2026</p>
         <div className="progress-layout">
-          <div className="progress-copy">
-            <p className="progress-lead">
-              How we have made an impact together
-            </p>
-            <p>
-              Partners in Belize, Guyana, Jamaica, Suriname, and Trinidad. Pins mark places we name, not a claim of global reach.
-            </p>
-            <a className="link-arrow" href="/about">
-              Learn more
-              <ArrowRight size={18} />
-            </a>
-          </div>
+          <ul className="impact-funds">
+            {impactStats.map((stat) => (
+              <li
+                key={stat.name}
+                className="impact-fund"
+                data-programme={stat.programme}
+              >
+                <p className="impact-fund-name">{stat.name}</p>
+                <p className="impact-fund-amount">
+                  <span className="visually-hidden">CAD </span>
+                  {stat.amount}
+                </p>
+                <a className="impact-fund-chip" href={stat.href}>
+                  Chip in
+                </a>
+              </li>
+            ))}
+          </ul>
           <div className="globe-bleed" aria-hidden="true">
             <div className="globe-stage">
               <div className="orbit-ring" />
@@ -46,15 +62,8 @@ export function Impact() {
             <li key={pin.id}>{pin.name}</li>
           ))}
         </ul>
-        <div className="stats">
-          {impactStats.map((stat) => (
-            <div key={stat.label}>
-              <p className="stat-value">{stat.value}</p>
-              <p className="stat-label">{stat.label}</p>
-            </div>
-          ))}
-        </div>
       </div>
+      <LiveGround />
     </section>
   );
 }

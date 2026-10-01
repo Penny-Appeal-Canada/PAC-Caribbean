@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { marqueeImages } from "@/lib/content";
+import { RevealText } from "./RevealText";
 
 function Track({ offset = 0 }: { offset?: number }) {
   const row = [...marqueeImages.slice(offset), ...marqueeImages.slice(0, offset)];
@@ -79,9 +80,15 @@ export function ImageMarquee() {
   }, []);
 
   return (
-    <section className="section marquee" id="work-region">
+    <section
+      className="section marquee"
+      id="work-region"
+      aria-labelledby="marquee-subhead"
+    >
       <div className="wrap">
-        <h2>Work across the region</h2>
+        <RevealText id="marquee-subhead" className="marquee-subhead">
+          Penny Appeal Canada is a Canadian humanitarian organization dedicated to breaking the cycle of poverty and building resilient communities. Since 2019, we have been working across food security, clean water, emergency response, and orphan care addressing the fundamentals that empower families to rise out of poverty.
+        </RevealText>
       </div>
       <div ref={stageRef} className="marquee-tilt">
         <div ref={stackRef} className="marquee-stack">

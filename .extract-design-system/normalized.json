@@ -1,0 +1,45 @@
+{
+  "source": {
+    "url": "https://www.globalcitizen.org/en/",
+    "extractedAt": "2026-09-21T17:27:07.563Z",
+    "extractor": "dembrandt"
+  },
+  "colors": {
+    "palette": [],
+    "cssVariables": {}
+  },
+  "typography": {
+    "headingFont": "MarkWebPro-Book-W03-Regular",
+    "bodyFont": "MarkWebPro-Book-W03-Regular"
+  },
+  "spacing": {
+    "scale": [
+      "1px",
+      "5px",
+      "7px",
+      "8px",
+      "9px",
+      "10px",
+      "13px",
+      "15px",
+      "16px",
+      "18px",
+      "20px",
+      "24px",
+      "30px",
+      "32px",
+      "40px",
+      "48px",
+      "50px",
+      "64px",
+      "75px",
+      "478.125px"
+    ]
+  },
+  "radius": {
+    "scale": []
+  },
+  "shadows": {
+    "scale": []
+  }
+}

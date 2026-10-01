@@ -1,12 +1,13 @@
 import { programmes } from "@/lib/content";
 import { Button } from "./Button";
+import { RevealText } from "./RevealText";
 
 export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="wrap">
         <div className="footer-support">
-          <h2>Support the work</h2>
+          <RevealText>Support the work</RevealText>
           <Button href="/donate">Donate</Button>
         </div>
         <div className="footer-grid">

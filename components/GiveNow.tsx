@@ -9,6 +9,7 @@ import {
   Student,
 } from "@phosphor-icons/react/ssr";
 import { giveCards } from "@/lib/content";
+import { LiveGround } from "./LiveGround";
 import { RevealText } from "./RevealText";
 
 const icons = {
@@ -24,6 +25,14 @@ const icons = {
 export function GiveNow() {
   return (
     <section className="give-now" id="give" aria-labelledby="give-now-heading">
+      <div className="give-map" aria-hidden="true">
+        <img
+          src="/images/caribbean-map.png?v=carib5"
+          alt=""
+          width={2532}
+          height={1754}
+        />
+      </div>
       <div className="wrap">
         <div className="give-intro">
           <RevealText id="give-now-heading">
@@ -35,7 +44,9 @@ export function GiveNow() {
           </p>
         </div>
         <div className="give-grid">
-          {giveCards.map((card) => {
+          {giveCards
+            .filter((card) => card.id !== "emergency")
+            .map((card) => {
             const Icon = icons[card.id as keyof typeof icons];
             return (
               <a key={card.id} className="give-card" href={card.href} data-wash={card.id}>
@@ -59,6 +70,7 @@ export function GiveNow() {
           })}
         </div>
       </div>
+      <LiveGround />
     </section>
   );
 }

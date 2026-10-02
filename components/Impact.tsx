@@ -1,5 +1,5 @@
-import { globePins, impactStats } from "@/lib/content";
-import { LiveGround } from "./LiveGround";
+import { Globe } from "@/components/ui/globe";
+import { impactStats } from "@/lib/content";
 import { RevealText } from "./RevealText";
 
 export function Impact() {
@@ -16,6 +16,10 @@ export function Impact() {
           in 2026
         </p>
         <p className="impact-updated">Last updated: August 31, 2026</p>
+        <p className="globe-places">
+          Jordan, Palestine, Sudan, Pakistan, Turkey, India, Canada, and the
+          Caribbean
+        </p>
         <div className="progress-layout">
           <ul className="impact-funds">
             {impactStats.map((stat) => (
@@ -35,35 +39,13 @@ export function Impact() {
               </li>
             ))}
           </ul>
-          <div className="globe-bleed" aria-hidden="true">
+          <div className="globe-bleed">
             <div className="globe-stage">
-              <div className="orbit-ring" />
-              <div className="globe-spin">
-                <img
-                  src="/images/globe-caribbean.jpg"
-                  alt=""
-                  width={800}
-                  height={800}
-                />
-                {globePins.map((pin) => (
-                  <span
-                    key={pin.id}
-                    className="pin"
-                    data-programme={pin.programme}
-                    style={{ left: pin.x, top: pin.y }}
-                  />
-                ))}
-              </div>
+              <Globe className="globe-canvas" />
             </div>
           </div>
         </div>
-        <ul className="visually-hidden">
-          {globePins.map((pin) => (
-            <li key={pin.id}>{pin.name}</li>
-          ))}
-        </ul>
       </div>
-      <LiveGround />
     </section>
   );
 }

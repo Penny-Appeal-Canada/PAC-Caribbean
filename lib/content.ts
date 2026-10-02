@@ -256,11 +256,54 @@ export const liveProgrammes = [
 ];
 
 export const globePins = [
-  { id: "belize", name: "Belize", x: "28%", y: "42%", programme: "thirst" as ProgrammeId },
-  { id: "jamaica", name: "Jamaica", x: "36%", y: "46%", programme: "feed" as ProgrammeId },
-  { id: "trinidad", name: "Trinidad", x: "44%", y: "54%", programme: "orphan" as ProgrammeId },
-  { id: "guyana", name: "Guyana", x: "48%", y: "58%", programme: "thirst" as ProgrammeId },
-  { id: "suriname", name: "Suriname", x: "52%", y: "56%", programme: "emergency" as ProgrammeId },
+  {
+    id: "jordan",
+    name: "Jordan",
+    lat: 31.9539,
+    lng: 35.9106,
+  },
+  {
+    id: "palestine",
+    name: "Palestine",
+    lat: 31.5017,
+    lng: 34.4668,
+  },
+  {
+    id: "sudan",
+    name: "Sudan",
+    lat: 15.5007,
+    lng: 32.5599,
+  },
+  {
+    id: "pakistan",
+    name: "Pakistan",
+    lat: 33.6844,
+    lng: 73.0479,
+  },
+  {
+    id: "turkey",
+    name: "Turkey",
+    lat: 41.0082,
+    lng: 28.9784,
+  },
+  {
+    id: "india",
+    name: "India",
+    lat: 28.6139,
+    lng: 77.209,
+  },
+  {
+    id: "canada",
+    name: "Canada",
+    lat: 43.6532,
+    lng: -79.3832,
+  },
+  {
+    id: "caribbean",
+    name: "Caribbean",
+    lat: 18.1096,
+    lng: -77.2975,
+  },
 ];
 
 export const marqueeImages = [

@@ -96,6 +96,14 @@ export const programmes: Programme[] = [
   },
 ];
 
+export const about = {
+  headlineLine1: "Penny Appeal",
+  headlineLine2: "Caribbean",
+  body: "Penny Appeal Canada is a Canadian humanitarian organization. Since 2019, we have been working across food security, clean water, emergency response, and orphan care, addressing the fundamentals that empower families to rise out of poverty.",
+  cta: "Our programmes",
+  href: "#give",
+};
+
 export const impactStats = [
   {
     name: "Thirst Relief",
@@ -356,36 +364,28 @@ export const stories = {
 
 export const importantParts = [
   {
-    href: "/zakat-policy",
-    title: "Our Zakat policy",
-    dek: "How Zakat is calculated, kept restricted, and spent.",
-    action: "Read the policy",
-    weight: "lead" as const,
-    tone: undefined,
-  },
-  {
     href: "/reports",
     title: "Financial Reports",
     dek: "What came in, and where it was spent.",
     action: "Read the reports",
-    weight: undefined,
-    tone: "ink" as const,
+    image: "/images/cutout-reports.png",
+    alt: "Volunteers loading Emergency Response food packs. Gaza, 2026.",
   },
   {
     href: "/scholars",
     title: "Our Scholars",
     dek: "The scholars who review the fiqh of our programmes.",
     action: "Meet the scholars",
-    weight: undefined,
-    tone: undefined,
+    image: "/images/cutout-scholars.png",
+    alt: "A child from an OrphanKind programme, holding a lime.",
   },
   {
     href: "/volunteer",
     title: "Volunteer",
     dek: "Events, packs, and local work. Give the hours you have.",
     action: "Volunteer with us",
-    weight: undefined,
-    tone: "orange" as const,
+    image: "/images/cutout-volunteer.png",
+    alt: "A Penny Appeal volunteer standing with children. Feed Our World field photograph.",
   },
 ];
 

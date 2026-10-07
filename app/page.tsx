@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { QuickDonate } from "@/components/QuickDonate";
 import { HeroCarousel } from "@/components/HeroCarousel";
+import { About } from "@/components/About";
 import { GiveNow } from "@/components/GiveNow";
 import { Impact } from "@/components/Impact";
 import { ImageMarquee } from "@/components/ImageMarquee";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <Header />
       <main id="main">
         <HeroCarousel />
+        <About />
         <div className="action-band">
           <GiveNow />
         </div>

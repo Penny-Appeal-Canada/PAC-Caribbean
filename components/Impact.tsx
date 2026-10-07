@@ -1,4 +1,3 @@
-import { Globe } from "@/components/ui/globe";
 import { impactStats } from "@/lib/content";
 import { RevealText } from "./RevealText";
 
@@ -39,11 +38,6 @@ export function Impact() {
               </li>
             ))}
           </ul>
-          <div className="globe-bleed">
-            <div className="globe-stage">
-              <Globe className="globe-canvas" />
-            </div>
-          </div>
         </div>
       </div>
     </section>

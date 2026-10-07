@@ -9,7 +9,6 @@ import {
   Student,
 } from "@phosphor-icons/react/ssr";
 import { giveCards } from "@/lib/content";
-import { LiveGround } from "./LiveGround";
 import { RevealText } from "./RevealText";
 
 const icons = {
@@ -70,7 +69,6 @@ export function GiveNow() {
           })}
         </div>
       </div>
-      <LiveGround />
     </section>
   );
 }
